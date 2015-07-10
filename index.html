@@ -1,0 +1,17 @@
+{% capture content %}
+  <div class="content clearfix">
+    {% for page in pages %}
+      <section id="{{page.meta.section_id}}">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2>{{page.title}}</h2>
+              <p>{{page.body}}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    {% endfor %}
+  </div>
+{% endcapture %}
+{% include 'layouts/default' %}

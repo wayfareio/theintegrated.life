@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-10 col-sm-6">
+      <p>&copy; {{site.title}}.</p>
+    </div>
+    <div class="col-xs-2 text-right visible-xs-block">
+      <a href="#big-slide-panel" class="big-slide-link no-underline hidden-sm">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class="col-sm-6 hidden-xs">
+      {% if home? %}
+        {% include 'includes/nav-home' %}
+      {% else %}
+        {% include 'includes/nav' %}
+      {% endif %}
+    </div>
+  </div>
+</div>
