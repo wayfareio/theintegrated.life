@@ -1,0 +1,1 @@
+$(function(){$(".big-slide-link").bigSlide({menu:"#big-slide-panel",push:".big-slide-push",side:"right",easyClose:!0})}),$(document).on("click","[data-scroll-to]",function(l){var t=$(l.target).data("scroll-to");if(t){var e=$(t).offset().top,i=$(l.target).data("scroll-offset");if(i)var a=e+i;else var a=e;$("html, body").animate({scrollTop:a},650)}});
