@@ -1,15 +1,12 @@
 ---
-time: 1436507165
+time: 1436549050
 inventory:
   "/home/index.html":
-    md5: 521d8435ef1b2e050bf10ded4435e817
-    time: 1436507163
+    md5: 0b55bb2a95028ffc577508423a5fc3bd
+    time: 1436549046
   "/index.html":
-    md5: 521d8435ef1b2e050bf10ded4435e817
-    time: 1436507163
-  "/about/index.html":
-    md5: c03c1a83895bf18797d4f6234e043603
-    time: 1436506803
+    md5: 0b55bb2a95028ffc577508423a5fc3bd
+    time: 1436549046
   "/home/about/index.html":
     md5: 6cb9a58c07a2d4c34fac342967bdd5b1
     time: 1436507112
@@ -20,14 +17,14 @@ inventory:
     md5: 38bc97f8e1346082703ee7eb62b0c76e
     time: 1436507163
   "/CNAME":
-    md5: b1a793ef21a0dceff93d9dd226a02496
-    time: 1436506933
+    md5: f979dd0986aa98abe580ba307ba10692
+    time: 1436549047
   "/sitemap.xml":
-    md5: 1d290fc4a42cf016433ee7268f2ab480
-    time: 1436506933
+    md5: 45103f1009ccef70de8c3900a45303b3
+    time: 1436549047
   "/feed.xml":
-    md5: 5537e224fad4998f2124c1bee9cc1c6d
-    time: 1436507163
+    md5: a755ed3772f16359555b741a20c12204
+    time: 1436549047
   "/_assets/images/header-home.jpg":
     md5: 9469eec0907ef27d0e4f6de18941f358
     time: 1436506803
@@ -97,9 +94,6 @@ inventory:
   "/assets/images/logo-light@2x.png":
     md5: 3dd76e6c89aa036f599212458f237d06
     time: 1436506805
-  "/assets/javascripts/public.js":
-    md5: ad13cc1949d769230ba8825750733fc8
-    time: 1436506805
   "/assets/stylesheets/home.css":
     md5: b45d05af26238f3adad84394859a96f7
     time: 1436506805
@@ -112,12 +106,15 @@ inventory:
   "/assets/stylesheets/sticky-footer.css":
     md5: 93d52179ef6a17265904d28976e10134
     time: 1436506805
+  "/assets/javascripts/public.js":
+    md5: 11b7617d63ef7e99b1ad19e12040e88d
+    time: 1436549047
   "/Gemfile":
-    md5: fcbaf6850f06a7a69cc99bce9b76f5d9
-    time: 1436506805
+    md5: 00c88cd541c72517902196b404ae790d
+    time: 1436549047
   "/Gemfile.lock":
-    md5: 581edc3aab1d7525af09f774729a1433
-    time: 1436506805
+    md5: f1fe3b3d2ddd49aae6cbe82ebe4d11d6
+    time: 1436549047
   "/Guardfile":
-    md5: 94a958e3f8351ed3ef89674ed2ee1874
-    time: 1436506805
+    md5: a2a567d3b2ea6662514bc884637bb70c
+    time: 1436549048

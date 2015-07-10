@@ -9,14 +9,15 @@ end
 guard :sass, output: 'assets/stylesheets',
              style: :compressed,
              all_on_start: true do
-  watch(%r{^_assets/stylesheets/public.scss})
-  watch(%r{^_assets/stylesheets/sticky-footer.scss})
-  watch(%r{^_assets/stylesheets/sticky-footer-ie.scss})
-  watch(%r{^_assets/stylesheets/home.scss})
+  watch('_assets/stylesheets/public.scss')
+  watch('_assets/stylesheets/sticky-footer.scss')
+  watch('_assets/stylesheets/sticky-footer-ie.scss')
+  watch('_assets/stylesheets/home.scss')
 end
 
-guard :uglify, input: "_assets/javascripts/public.js",
-               output: "assets/javascripts/public.js",
-               run_at_start: true do
-  callback(:start_begin) { FileUtils.mkdir_p("assets/javascripts") }
+guard :sprockets, destination: 'assets/javascripts',
+                  asset_paths: ['_assets/javascripts'],
+                  root_file: ['assets/javascripts/public.js'],
+                  minify: true do
+  watch(%r{^_assets/javascripts/(.*)\.js$})
 end
