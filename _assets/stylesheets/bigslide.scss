@@ -1,9 +1,12 @@
-header .big-slide-link { position: absolute; right: 20px; top: 10px; font-size: 24px; }
+header .big-slide-link {
+  position: absolute; right: 20px; top: 10px; font-size: 24px; z-index: 10001;
+  &:hover { color: white !important; }
+}
 footer .big-slide-link { font-size: 16px; }
 
 $big-slide-width: 15.625em;
 .big-slide-panel {
-  position: fixed;  z-index: 10001; right: -$big-slide-width; width: $big-slide-width; background-color: darken($dark-gray, 30%);
+  position: fixed;  z-index: 10002; right: -$big-slide-width; width: $big-slide-width; background-color: $dark-gray;
   ul { position: absolute; right: 0; top: 0; width: $big-slide-width; }
   li {
     display: block; text-align: left; border: 1px solid $dark-gray; border-width: 0 0 1px; padding: 0;
